@@ -884,7 +884,7 @@ function ITTsDonationBot:CreateListener(guildId)
     lastEvent = ITTsDonationBotData.records[worldName]["lastEvent"]
   end
   local _, weekCutoff = GetGuildKioskCycleTimes()
-  weekCutoff = weekCutoff - 7 * ZO_ONE_DAY_IN_SECONDS -- GetGuildKioskCycleTimes() minus 7 days
+  weekCutoff = weekCutoff - (7 * ZO_ONE_DAY_IN_SECONDS) -- GetGuildKioskCycleTimes() minus 7 days
   ITTsDonationBotListener[guildId]:SetAfterEventTime(weekCutoff)
 
   ITTsDonationBotListener[guildId]:SetEventCallback(

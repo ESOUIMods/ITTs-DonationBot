@@ -1,11 +1,11 @@
 ## Title: ITTs Donation Bot
-## APIVersion: 101034
+## APIVersion: 101035 101036
 ## Description: Keeps on top of Donations, beep! Part of the ITTs Bot family, handy helpers for Trade Guilds.
-## Version: 2.0.2
-## AddOnVersion: 202
+## Version: 2.0.3
+## AddOnVersion: 203
 ## Author: |c00a313|Ghostbane|r & |c268074JN Slevin
 ## SavedVariables: ITTsDonationBotSettings ITTsDonationBotData
-## DependsOn: LibAddonMenu-2.0>=33 LibChatMessage LibGuildRoster LibDebugLogger>=255 LibHistoire>=453
+## DependsOn: LibAddonMenu-2.0>=34 LibChatMessage>=105 LibGuildRoster>=10 LibDebugLogger>=255 LibHistoire>=457
 ## OptionalDependsOn: DebugLogViewer>=558
 
 ITTsDonationBot.lua
